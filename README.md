@@ -1,7 +1,4 @@
 # Reto-10
-```python
-
-```
 
 ## 1. Desarrolle un programa que permita realizar la suma/resta de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
 ```python
