@@ -2,12 +2,12 @@
 
 ## 1. Desarrolle un programa que permita realizar la suma/resta de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
 ```python
-# Función para imprimir la matriz
+# Esta parte es la función para imprimir la matriz
 def impmatriz(matriz):
     for f in matriz:
         print(f)
 
-# Función para pedir los datos de una matriz
+# Aca se piden los datos de una matriz
 def ingmatriz(filas, columnas, nombre):
     matriz = []
     print("Ingrese los datos para la matriz", nombre)
@@ -20,7 +20,7 @@ def ingmatriz(filas, columnas, nombre):
         matriz.append(fila)
     return matriz
 
-# Función para sumarlas
+# Función para sumar las matrices
 def sumarmatrices(A, B):
     resultado = []
     for i in range(len(A)):
@@ -30,7 +30,7 @@ def sumarmatrices(A, B):
         resultado.append(fila_resultado)
     return resultado
 
-# Función para restarlas
+# Esta función es para restar las matrices
 def restar_matrices(A, B):
     resultado = []
     for n in range(len(A)):
@@ -121,7 +121,7 @@ else:
 ```
 ## 3. Desarrolle un programa que permita obtener la matriz transpuesta de una matriz ingresada. El programa debe validar las condiciones necesarias para ejecutar la operación.
 ```python
-# Función para imprimir una matriz
+# Esta es la finción para imprimir una matriz
 def impmatriz(matriz):
     for f in matriz:
         print(f)
@@ -139,7 +139,7 @@ def ingmatriz(filas, columnas):
         matriz.append(fila)
     return matriz
 
-# Función para calcular la matriz transpuesta
+# Calcula la matriz transpuesta
 def transpuesta(matriz):
     filas = len(matriz)
     columnas = len(matriz[0])
@@ -217,14 +217,14 @@ else:
 ```
 ## 5. Desarrollar un programa que sume los elementos de una fila dada de una matriz.
 ```python
-# Función para sumar los elementos de una fila específica
+# Suma los elementos de una fila específica
 def sumaf(matriz, fila):
     suma = 0
     for valor in matriz[fila]:
         suma += valor
     return suma
 
-# Función para ingresar los datos de una matriz
+# Aquí es para ingresas los datos de la matriz
 def ingmatriz(filas, columnas):
     matriz = []
     print("Ingrese los elementos de la matriz:")
